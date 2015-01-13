@@ -1,4 +1,65 @@
 body {
-  width: 800px;
+  font-family: 'Optima', serif;
+  }
+
+#wrap {
+  width: 900px;
   margin: 0 auto;
 }
+
+/* *********************
+        HEADER
+********************* */
+header {
+
+}
+
+header ul li h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 35px;
+}
+
+header ul li {
+  font-size: 11px;
+  list-style-type: none;
+}
+
+#logo ul {
+  float: left;
+}
+
+#social li {
+  display: inline;
+  float: right;
+  padding: 1px;
+}
+
+#contact {
+  padding-left: 10px;
+}
+
+#contact li {
+  display: inline;
+  float: right;
+  padding: 1px;
+}
+
+/* *********************
+        BODY
+********************* */
+
+#notebook {
+  background-image: url('../img/list-bg.png');
+  background-repeat: no-repeat;
+
+}
+
+#notebook ul li {
+  list-style-type: none;
+  text-align: left;
+  
+}
+
+/* *********************
+        FOOTER
+********************** */
