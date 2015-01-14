@@ -41,6 +41,7 @@ header h1 {
 header h2 {
   font-family: 'Abel', serif;
   font-size: 10px;
+  color: #B0B3B6;
 }
 
 /* *********************
@@ -55,6 +56,7 @@ article h1 {
 article p {
   font-family: 'Abel', serif;
   font-size: 12px;
+  color: #B0B3B6;
   margin-top: 5px;
 }
 
@@ -69,8 +71,11 @@ article p {
 }
 
 article section.text p {
-  font-family: 'Slabo 27px', sans-serif;
-  font-size: 16px;
+  font-family: 'Droid Serif', sans-serif;
+  font-weight: 200;
+  color: #B0B3B6;
+  font-size: 15px;
+  text-indent: 2em;
   margin-top: 20px;
 }
 
@@ -96,6 +101,7 @@ article section.text p {
 #notebook table tr td {
   font-family: 'Patrick Hand', arial;
   font-size: 22px;
+  color: #757B80;
   padding: 2px;
 }
 
@@ -114,6 +120,36 @@ article section.text p {
   left: 420px;
 }
 
+/* ****************************
+          PROFILE
+***************************** */
+.vanessa {
+  position: relative;
+}
+
+.photo-id {
+  float: left;
+}
+
+#profile h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#profile p {
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  margin-top: 10px;
+  width: 580px;
+}
+
+button {
+  float: right;
+  font-size: 16px;
+  color: white;
+  background-color: #b55f03;
+  padding: 20px;
+}
 
 /* *********************
         FOOTER
