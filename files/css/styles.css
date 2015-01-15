@@ -1,65 +1,192 @@
 body {
-  font-family: 'Optima', serif;
+  font-family: sans-serif, serif;
   }
 
-#wrap {
+#container {
   width: 900px;
   margin: 0 auto;
+  position: relative;
 }
 
+hr {
+  margin-top: 20px;
+}
 /* *********************
         HEADER
 ********************* */
 header {
-
+  overflow: hidden;
+  padding: 30px 0;
 }
 
-header ul li h1 {
-  font-family: 'Brush Script MT', cursive;
+.logo {
+  float: left;
+  margin: 30px 0;
+}
+
+header .main-headings {
+  padding: 1px;
+  margin: 25px 0 0 50px;
+}
+
+header nav ul li {
+  display: inline;
+  float: right;
+  margin: -20px 0 20px 1px;
+  padding: 1px;
+}
+
+header h1 {
+  font-family: 'Yellowtail', cursive;
   font-size: 35px;
 }
 
-header ul li {
-  font-size: 11px;
-  list-style-type: none;
-}
-
-#logo ul {
-  float: left;
-}
-
-#social li {
-  display: inline;
-  float: right;
-  padding: 1px;
-}
-
-#contact {
-  padding-left: 10px;
-}
-
-#contact li {
-  display: inline;
-  float: right;
-  padding: 1px;
+header h2 {
+  font-family: 'Abel', serif;
+  font-size: 10px;
+  color: #B0B3B6;
 }
 
 /* *********************
         BODY
 ********************* */
+article h1 {
+  font-size: 35px;
+  font-family: 'Francois One', serif;
+  margin-top: 30px;
+}
+
+article p {
+  font-family: 'Abel', serif;
+  font-size: 12px;
+  color: #B0B3B6;
+  margin-top: 5px;
+}
+
+.print {
+  float: right;
+  margin-top: -15px;
+  padding: 1px;
+}
+
+.pizza {
+  margin-top: 30px;
+}
+
+article section.text p {
+  font-family: 'Droid Serif', sans-serif;
+  font-weight: 200;
+  color: #B0B3B6;
+  font-size: 15px;
+  text-indent: 2em;
+  margin-top: 20px;
+}
 
 #notebook {
   background-image: url('../img/list-bg.png');
   background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 900px;
+  position: relative;
+  }
 
+#notebook table {
+  position: absolute;
+  top: 40px;
+  right: 110px;
+  bottom: 45px;
+  left: 60px;
 }
 
-#notebook ul li {
-  list-style-type: none;
-  text-align: left;
-  
+#notebook table tr td {
+  font-family: 'Patrick Hand', arial;
+  font-size: 22px;
+  color: #757B80;
+  padding: 2px;
+}
+
+#notebook .line-through {
+  text-decoration: line-through;
+}
+
+#notebook .table-1 {
+  position: absolute;
+  left: 60px;
+}
+
+#notebook .table-2 {
+  position: absolute;
+  right: 300px;
+  left: 420px;
+}
+
+/* ****************************
+          PROFILE
+***************************** */
+.vanessa {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-id {
+  float: left;
+}
+
+.profile h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.profile p {
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 580px;
+}
+
+button {
+  font-size: 12px;
+  color: white;
+  background-color: #b55f03;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
 
 /* *********************
         FOOTER
 ********************** */
+
+
+
+
+
+/* **********************************
+          CLEAR FIX
+*********************************** */
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { 
+  height: 1%; 
+}
+.clearfix { 
+  display: block; 
+}
+/* close commented backslash hack */
