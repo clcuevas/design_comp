@@ -8,6 +8,9 @@ body {
   position: relative;
 }
 
+hr {
+  margin-top: 20px;
+}
 /* *********************
         HEADER
 ********************* */
@@ -48,7 +51,7 @@ header h2 {
         BODY
 ********************* */
 article h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Francois One', serif;
   margin-top: 30px;
 }
@@ -125,30 +128,36 @@ article section.text p {
 ***************************** */
 .vanessa {
   position: relative;
+  overflow: hidden;
 }
 
 .photo-id {
   float: left;
 }
 
-#profile h2 {
+.profile h2 {
   font-size: 20px;
   margin-top: 20px;
+  margin-left: 5px;
 }
 
-#profile p {
+.profile p {
   font-family: 'Droid Serif', serif;
   font-size: 15px;
   margin-top: 10px;
+  margin-left: 5px;
   width: 580px;
 }
 
 button {
-  float: right;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   background-color: #b55f03;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 5px;
+  right: 0;
 }
 
 /* *********************
