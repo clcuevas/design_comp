@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif, serif;
+  }
+
+#container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.button {
+  font-size: 12px;
+  color: white;
+  border: 0;
+  padding: 20px;
+  margin: 10px;
+}
+
+.break {
+  height: 20px;
+  background-image: url('../img/break.jpg'); 
+  margin-bottom: 20px;
+}
+
+.break-2 {
+  height: 30px;
+  background-image: url('../img/break-2.jpg');
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* NEED TO ADD CLASSES FOR ELEMENTS THAT
+FLOAT: RIGHT; AND FLOAT: LEFT; */
