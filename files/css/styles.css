@@ -63,7 +63,7 @@ article p {
 article section.text p {
   font-family: 'Droid Serif', sans-serif;
   font-weight: 200;
-  color: #B0B3B6;
+  color: #BABABA;
   font-size: 15px;
   text-indent: 2em;
   margin-top: 20px;
@@ -117,29 +117,30 @@ article section.text p {
   background-image: url('../img/van-pic.png');
   background-repeat: no-repeat;
   position: relative;
+  height: 100px;
   overflow: hidden;
-}
-
-/*.photo-id {
-  float: left;
-}*/
-.profile h2 p {
-  position: absolute;
-  left: -30px;
 }
 
 .profile h2 {
   font-size: 20px;
-  margin-top: 20px;
+  font-family: 'Droid Serif';
+  color: #363636;
+  margin-top: 10px;
   margin-left: 5px;
+  position: absolute;
+  left: 80px;
 }
 
 .profile p {
   font-family: 'Droid Serif', serif;
+  color: #BABABA;
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 5px;
-  width: 580px;
+  width: 530px;
+  position: absolute;
+  top: 40px;
+  left: 80px;
 }
 
 button {
@@ -152,15 +153,24 @@ button {
 /* *********************
         FOOTER
 ********************** */
+footer {
+  text-align: center;
+  color: gray;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  height: 100px;
+}
 
-
-
-
+footer p {
+  color: #BABABA;
+  font-family: 'Droid Serif', serif;
+  font-size: 13px;
+}
 
 /* **********************************
           CLEAR FIX
 *********************************** */
-
 
 .clearfix:after {
      visibility: hidden;

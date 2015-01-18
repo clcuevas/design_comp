@@ -22,6 +22,14 @@ hr {
 .break {
   height: 20px;
   background-image: url('../img/break.jpg'); 
+  margin-bottom: 20px;
+}
+
+.break-2 {
+  height: 30px;
+  background-image: url('../img/break-2.jpg');
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* NEED TO ADD CLASSES FOR ELEMENTS THAT
