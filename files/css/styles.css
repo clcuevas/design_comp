@@ -114,12 +114,18 @@ article section.text p {
           PROFILE
 ***************************** */
 .vanessa {
+  background-image: url('../img/van-pic.png');
+  background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
 }
 
-.photo-id {
+/*.photo-id {
   float: left;
+}*/
+.profile h2 p {
+  position: absolute;
+  left: -30px;
 }
 
 .profile h2 {
@@ -139,8 +145,8 @@ article section.text p {
 button {
   background-color: #b55f03;
   position: absolute;
-  top: 5px;
-  right: 0;
+  top: 0;
+  right: 25px;
 }
 
 /* *********************
